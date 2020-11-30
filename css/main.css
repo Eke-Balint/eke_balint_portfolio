@@ -133,7 +133,7 @@ p{
   width: 50%;
   margin: auto;
 }
- .adatok3{
+.adatok3{
   text-align: center;
   font-size: 1.5vw;
   color: rgb(255,0,0);
@@ -141,79 +141,7 @@ p{
   margin: auto;
   padding: 2%;
 }
-@media (max-width: 800px) {
-  
-  .keposzlop {
-    flex: 50%;
-    max-width: 50%;
-  }
-  .jobboszlop{
-    width: 100%;
-  }
-  .baloszlop{
-    width: 100%;
-  }
-  .sor {
-  display: flex;
-  flex-direction: column;
-  }
-  .oszlop{
-  float: left;
-  width:100%;
-  padding: 2%;
-}
-  .nysor {
-  display: flex;
-  flex-direction: column;
-  flex: 100%;
-  }
-  .nyboszlop{
-  float: left;
-  width:100%;
-  }
-  .nykoszlop{
-  float: left;
-  width:100%;
-  text-align: center;
-  }
-  .nyjoszlop{
-  float: left;
-  width:100%;
-  align-content: center;
-  margin: auto;
-  }
-  .nykeposzlop img {
-  vertical-align: middle;
-  width: 100%;
-  padding: 1%;
-  margin: auto;
-  }
-  .adatok{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 2%;
-  }
 
-}  
-@media (max-width: 600px) {
-  .textsize {
-  font-size: 3vw;
-  }
-  .keposzlop {
-    flex: 100%;
-    max-width: 50%;
-  }
-  .jobboszlop{
-  	width: 100%;
-  }
-  .baloszlop{
-  	width:100%;
-  }
-  .sor:after {
-  display: block;
-  }
-}
 
 .gomb {
   display: inline-block;
@@ -345,4 +273,96 @@ form label, input, textarea{
 }
 img{
   border-radius: 2vw;
+}
+@media (max-width: 800px) {
+  
+  .keposzlop {
+    flex: 50%;
+    max-width: 50%;
+  }
+  .jobboszlop{
+    width: 100%;
+  }
+  .baloszlop{
+    width: 100%;
+  }
+  .sor {
+  display: flex;
+  flex-direction: column;
+  }
+  .oszlop{
+  float: left;
+  width:100%;
+  padding: 2%;
+  }
+  .nysor {
+  display: flex;
+  flex-direction: column;
+  flex: 100%;
+  }
+  .nyboszlop{
+  float: left;
+  width:100%;
+  }
+  .nykoszlop{
+  float: left;
+  width:100%;
+  text-align: center;
+  }
+  .nyjoszlop{
+  float: left;
+  width:100%;
+  align-content: center;
+  margin: auto;
+  }
+  .nykeposzlop img {
+  vertical-align: middle;
+  width: 100%;
+  padding: 1%;
+  margin: auto;
+  }
+  .adatok{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+  }
+  .adatok2{
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(200,200,200);
+  width: 50%;
+  margin: auto;
+  }
+  .adatok3{
+  text-align: center;
+  font-size: 2vw;
+  color: rgb(255,0,0);
+  width: 50%;
+  margin: auto;
+  padding: 2%;
+  }
+  #labtext {
+  text-decoration: none;
+  color: rgb(200,200,200);
+  font-size: 2vw;
+  }
+}  
+@media (max-width: 600px) {
+  .textsize {
+  font-size: 3vw;
+  }
+  .keposzlop {
+    flex: 100%;
+    max-width: 50%;
+  }
+  .jobboszlop{
+    width: 100%;
+  }
+  .baloszlop{
+    width:100%;
+  }
+  .sor:after {
+  display: block;
+  }
 }
